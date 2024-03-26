@@ -1,0 +1,15 @@
+### product の新規追加
+
+POST http://localhost:3000/products
+Content-Type: application/json
+
+{
+   "id": "1",
+    "name": "みかん",
+    "price": 100
+}
+
+
+### product 一覧の取得
+
+GET http://localhost:3000/products
