@@ -22,17 +22,17 @@ const add
 
 ちょうど書き終わるころ、下図のように`const add`の後ろに候補が表示されるのがわかりますか？
 
-![GitHub Copilotによる候補が表示された](../../code-completion/images/github-copilot-completion-001.png)
+![GitHub Copilotによる候補が表示された](./images/code-completion/github-copilot-completion-001.png)
 
 これがGitHub Copilotによる候補です。確定するには、「Tab」キーを入力してください。候補を無視するには、そのまま書き続けるか、`Esc`キーでクリアできます。
 
 候補を生成して返却されるまでの間、エディタ右下のGitHub Copilotのアイコンが回転する表示になります。このアイコンの背景が暗い黄色の場合は、GitHub CopilotがDeactive（無効）になっているので、クリックしてActive（有効）に切替えてください。
 
-![右下に表示されるGitHub Copilotアイコン](../../code-completion/images/github-copilot-icon-enabled.png)
+![右下に表示されるGitHub Copilotアイコン](./images/code-completion/github-copilot-icon-enabled.png)
 
 候補はいくつか提示されることがあります。候補のグレーの文字列にカーソルを乗せると表示されるウィンドウを利用するか、キーバインドで切替えることができます。
 
-![候補が複数ある場合は選択できる](../../code-completion/images/github-copilot-completion-002.png)
+![候補が複数ある場合は選択できる](./images/code-completion/github-copilot-completion-002.png)
 
 | OS |  次の候補を表示 | 前の候補を表示 |
 |----|----|----|
@@ -82,9 +82,9 @@ const add
    ```
 
    `sub`に対して`subtract`の候補が提示されるでしょう。
-   ![カーソルの後ろの文脈も含めて提案される](../../code-completion/images/github-copilot-completion-003.png)
+   ![カーソルの後ろの文脈も含めて提案される](./images/code-completion/github-copilot-completion-003.png)
 3. 各行にコメントを記述してみましょう。書き進むにつれ、適切な候補が提案されるので、速く書けますね。
-   ![GitHub Copilotはコメントの挿入でも活躍する](../../code-completion/images/github-copilot-completion-004.png)
+   ![GitHub Copilotはコメントの挿入でも活躍する](./images/code-completion/github-copilot-completion-004.png)
 
 演習では割愛しますが、編集中のファイルとは別に、同じ拡張子のファイルをタブで開くと、その内容も加味して候補を提案してくれるようになります。ぜひ試してみてください。
 
